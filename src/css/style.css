@@ -1019,23 +1019,15 @@ button:focus,
   padding: 50px 0 120px;
   position: relative;
   overflow: hidden;
+  background-image: linear-gradient(90deg, #E40046, #651D32);
 }
 .gradient-banner-nop {
   padding: 50px 0;
   position: relative;
   overflow: hidden;
-}
-.gradient-banner::before, .gradient-banner-nop::before {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 200%;
-  height: 200%;
-  /* border-radius: 50%; */
   background-image: linear-gradient(90deg, #E40046, #651D32);
 }
+
 
 .pull-top {
   margin-top: -100px;
@@ -1801,8 +1793,8 @@ hr {
 
 .typeform-button {
   all: unset;
+  width: 380px;
   display: inline-block;
-  max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1819,6 +1811,12 @@ hr {
   text-decoration: none;
 }
 
+.viber-bg {
+  background-color: #520dc2;
+  color: white;
+  /* background-image: linear-gradient(45deg, blue, red); */
+}
+
 .btn-viber {
   background-color: #6610f2;
   color: white;
@@ -1826,8 +1824,8 @@ hr {
 }
 
 .btn-viber:hover {
-  background-color: #520dc2;
-  color: white;
+  background-color: #520dc2 !important;
+  color: white !important;
 }
 
 hr.hr-text::before {
