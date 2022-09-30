@@ -1860,3 +1860,9 @@ hr {
   border-color: #d6d8db;
   border-width: 1px;
 }
+
+#typeform {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
